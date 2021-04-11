@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 40px;
+    font-family: "Fantasy";
+  }
+
+  h2 {
+      color: brown;
+      @font-face 
+        font-family: myFirstFont;
+        src: url(sansation_bold.woff);
+        font-weight: bold;
+      
+  }
